@@ -1,0 +1,188 @@
+
+
+body {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+
+	background: linear-gradient(to left, rgba(52, 0, 93, 0.3), rgba(79, 96, 217, 0.9));
+	background-attachment: fixed;
+
+
+	/*animação body*/
+
+}
+
+
+
+header {
+
+    background: linear-gradient(to left, blue, violet);
+    
+    border-radius: 20 ;
+	
+	box-shadow: 5px 5px;
+	margin-bottom: 10px;
+
+
+}
+
+header h1 {
+	/*color: #E9C4C4;*/
+
+}
+
+header p {
+	font-style: italic;
+	
+}
+
+.card {
+	margin: 20px 10px;
+
+	
+	
+	
+
+
+}
+
+
+
+body section .card video, 
+body section .card iframe{
+   height:450px;
+   margin-top: 5px;
+
+	border-radius: 30px 30px 0 0;
+}
+
+.card {
+	height: 200px;
+	padding: 1px;
+}
+#img-superior {
+	width: 100px;
+	height: 100px;
+
+}
+
+#img-superior img {
+	border-radius: 100px;
+	height: 90px;
+	width: 90px;
+}
+
+#apresentacao {
+	color: white;
+	font-style: italic;
+	margin-top: 20px;
+	font-size: 30px;
+
+}
+
+ div.icones img {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 730px) {
+	
+	body {
+		width: 100%;
+	}
+
+	footer h5 {
+		width: 100%;
+	}
+
+	#apresentacao {
+		width: 30%;
+		margin: 0 auto;
+		
+
+	}
+
+
+	.card {
+		margin: 10px auto;
+	}
+
+	
+}
+#test {
+	border-radius: 30px;
+	border: solid 1px grey;
+	background: black;
+	
+}
+
+/*@keyframes mudar-cor {
+	from {
+		background:black;
+
+	}
+
+	to {
+		background: blue;
+	}
+}*/
+
+body h1#Titulo {
+margin-top: 30px; 
+font-style: italic;
+font-size: 100px;
+box-shadow: 1px 1px 2px 2px;
+border-radius: 5px;
+
+
+}
+
+footer .container nav.navbar a{
+	color: white;
+
+}
+footer {
+	background: linear-gradient(to left, rgba(52, 0, 93, 0.1), rgba(79, 96, 217, 0.1));
+	margin-top: 10px;
+
+}
+
+/**Pagina sobre***/
+.web {
+	font-size: 100px;
+	color: white;
+	font-style: italic;
+	font-weight: 100px;
+	box-shadow: 5px 5px 5px 5px black;
+	border-radius: 5px;
+
+}
+
+.tec {
+	/*border: 1px solid red;*/
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	margin-right: 0px;
+	background: url("imagens/download.jpg");
+	
+
+}
+
+.foto {
+	margin-top: 100px;
+}
+
+header nav.nav ul li a.navlink {
+	color: white;
+
+}
+.row a {
+	padding: 50px;
+}
+footer .row {
+	margin: 0 auto;
+
+}
+
+
